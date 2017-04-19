@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+
+/* Banner */
+
+	#banner {
+		background-image: url(http://1428studio.com/GA/unit3/images/pizza_cover.jpg);
+		background-position: center center;
+		background-size: cover;
+		color: #ffffff;
+		padding: 14em 0em 14em;
+		text-align: center;
+	}
+
+		#banner :last-child {
+			margin-bottom: 0;
+		}
+
+		#banner h2 {
+			color: #ffffff;
+			font-size: 4em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#banner p {
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+		}
+
+
+.header {
+	background: url(http://1428studio.com/GA/unit3/images/pizza_cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header h1 {
+	color: #ffffff;
+	font-family: helvetica;
+}
