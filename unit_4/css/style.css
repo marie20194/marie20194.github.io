@@ -1,0 +1,180 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:800,700,600,400,300');
+
+
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+a:link {
+    color: #e84c3d;
+}
+
+/* visited link */
+a:visited {
+    color: #e84c3d;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e13929;
+}
+
+/* selected link */
+a:active {
+    color: #e84c3d;
+}
+
+/* Banner */
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	
+}
+
+#slogan {
+	background-image: url(../images/pizza_cover.jpg);
+	background-position: center center;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+	padding: 50px 0;
+	
+}
+
+#slogan h2 {
+	color: #ffffff;
+	font-size: 4em;
+	line-height: 1em;
+	font-family: 'Lobster', cursive;
+	display: inline-block;
+}
+
+#slogan p {
+	font-size: 1.5em;
+	margin-bottom: 1.5em;
+}
+			
+/* Button */
+
+.btn {
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	display: inline-block;
+    padding: 15px 32px;
+    margin-bottom: 30px;
+    font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: none;
+    border-radius: 5px;
+	
+}
+
+.btn-default {
+    color: #333 !important;
+    background-color: #e9d460;
+	box-shadow: 0px 2px 2px #a19030;
+}
+
+
+.btn-default:hover {
+	background-color: #e2ca46;
+	text-decoration: none;
+}
+
+/* Intro */
+
+#intro {
+	margin-bottom: 20px;
+}
+
+#intro h2 {
+	font-size: 3em;
+	text-align: center;
+	color:#e84c3d;
+	font-weight: 800 !important;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+
+#intro h3 {
+	font-size: 1.5em;
+	text-align: center;
+	color:#e84c3d;
+	font-weight: 800 !important;
+	color: #666;
+		}
+
+#intro p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #666;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 20px;
+}
+/* STRUCTURE */
+
+.product {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f5f5f5;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+.product a:link {
+    color: #333;
+	text-decoration: none;
+}
+
+.product a:hover {
+    color: #e84c3d;
+	text-decoration: none;
+}
+
+.price {
+	font-size: 18px;
+}
+
+
+.tee-img {
+		background-color: #fff;
+		border: 1px solid #e9e9e9;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 30px;
+		border-radius: 5px;
+		box-shadow: 0px 2px 2px #e0e0e0;
+		
+	}
+
+.footer {
+	margin: 20px 0;
+	text-align: center;
+}
